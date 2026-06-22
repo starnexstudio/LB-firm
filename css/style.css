@@ -1946,7 +1946,7 @@ transform:translateY(-8px);
       rgba(26, 126, 214, 0.11),
       transparent 34%
     ),
-    linear-gradient(135deg, #00093c 0%, #ffffff 52%, #bbc4cf 100%);
+    linear-gradient(135deg, #1f2339 0%, #ffffff 52%, #f0f0ff 100%);
 }
 
 .experience-section::before {
