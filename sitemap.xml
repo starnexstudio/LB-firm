@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://lb-gebaeude-service.de/</loc>
+    <loc>https://lb-gebäude-service.de/</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://lb-gebaeude-service.de/impressum.html</loc>
+    <loc>https://lb-gebäude-service.de/impressum.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://lb-gebaeude-service.de/datenschutz.html</loc>
+    <loc>https://lb-gebäude-service.de/datenschutz.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
