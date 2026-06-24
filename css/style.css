@@ -396,10 +396,33 @@ input, select, textarea { font-family: inherit; }
   user-select: none;
 }
 
+.hero-video {
+  /* ... stilet e tjera ... */
+  
+  /* Përdor maskën me prefiks për shfletuesit Webkit (Chrome, Safari, Edge) */
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%), 
+                      linear-gradient(to right, black 80%, transparent 100%),
+                      linear-gradient(to left, black 80%, transparent 100%);
+  -webkit-mask-composite: destination-in;
+  
+  /* Përdor maskën standarde për përputhshmëri (Firefox, etj.) */
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%), 
+              linear-gradient(to right, black 80%, transparent 100%),
+              linear-gradient(to left, black 80%, transparent 100%);
+  mask-composite: intersect;
+}
+.hero-video-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  background-color: #000e2a; /* Ngjyra bazë */
+}
 @keyframes videoZoom {
   from { transform: translate(-50%, -50%) scale(1);    }
   to   { transform: translate(-50%, -50%) scale(1.06); }
 }
+
 
 /* ── OVERLAY ───────────────────────────────────────────────── */
 /* .hero-photo-overlay {
@@ -2326,14 +2349,4 @@ transform:translateY(-8px);
 .experience-section {
   position: relative;
   z-index: 1; /* të jetë sipër hero::after në renderim natyral të dokumentit, por kjo s'duhet — mjafton order në DOM */
-}
-/* Offset për scroll, që seksionet të mos fshihen pas navbarit fixed */
-#home,
-#about,
-#services,
-#process,
-#testimonials,
-#faq,
-#contact {
-  scroll-margin-top: var(--nav-h);
 }
