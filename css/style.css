@@ -42,7 +42,7 @@
   --font: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-brand: 'Cinzel', 'Montserrat', serif;
 
-  --container: 1220px;
+  --container: 1360px;
   --container-pad: clamp(1rem, 4vw, 2rem);
 
   --nav-h: 72px;
