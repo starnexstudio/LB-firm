@@ -1,12 +1,12 @@
 
 # Leicht & Blitzsauber Gebäudeservice
 
-# https://lb-gebaude-service.de
+# https://lb-gebäude-service.de
 
 User-agent: *
 Allow: /
 
-Sitemap: https://lb-gebaude-service.de/sitemap.xml
+Sitemap: https://xn--lb-gebude-service-vqb.de/sitemap.xml
 
 User-agent: AhrefsBot
 Disallow: /
